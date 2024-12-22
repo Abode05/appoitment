@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+.sticky_header {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  box-shadow: 3px 3px -8px 3px #ddd;
+  transition: 0.4s all;
+}
+.swiper-slide.swiper-slide-next{
+  background-color: rgb(83, 83, 177);
+  border-radius: 10px !important;
+  
+  
+}
+.swiper-pagination{
+
+position: relative !important;
+margin-top: 6px !important;
+}
+/*  */
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-14 ;
+  }
+  .btn {
+    @apply bg-primaryColor py-[15px] px-[35px] rounded-[50px] text-white font-[600] mt-[38px];
+  }
+  .heading {
+    @apply text-5xl  font-bold text-headingColor;
+  }
+  .text_para {
+    @apply text-[17px] font-[400] text-textColor mt-[8px];
+  }
+  .header {
+    @apply  bg-[#2b3e4f] ;
+  }
+  .hero_section{
+    @apply bg-[#22313f] 
+  }
+}
+.input input {
+  width: 100%;
+  max-width: 400px; /* أو أي قيمة مناسبة لعرض العنصر */
+  padding: 10px;
+  height: 50px;
+  box-sizing: border-box;
+}
+@media only screen and(max-width:1024px) {
+  .container {
+    @apply w-full;
+  }
+  section {
+    @apply py-[35px];
+  }
+}
+@media only screen and(max-width:768px) {
+  .heading {
+    @apply text-[26px] font-bold;
+  }
+  .text_para {
+    @apply text-[16px] leading-7 mt-3;
+  }
+}
+@media only screen and (max-width: 786px) {
+  .navigation {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #00000084;
+    display: none;
+    transition: 0.5s;
+  }
+  .menu {
+    width: 15rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+  }
+  .show_menu {
+    display: block;
+  }
+}
+/*  */
+.first-color { 
+	background: #9ea2a7; 
+}
+	
+.second-color { 
+	background: #8dc6ff; 
+}
+
+.third-color { 
+	background: #22313f; 
+}
+
+.fourth-color { 
+	background: #34495e; 
+}
+/* custom scrol */
+/* Custom scrollbar for Webkit browsers (Chrome, Safari) */
+/* Custom scrollbar for Webkit browsers (Chrome, Safari) */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background color of the track */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scroll thumb */
+  border-radius: 10px; /* Rounded corners of the thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the thumb on hover */
+}
+
+/* Custom scrollbar for Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin; /* Width of the scrollbar */
+  scrollbar-color: #34495e #22313f; /* Color of the thumb and track */
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #22313f;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  z-index: 1000; /* تأكد من أن النموذج فوق العناصر الأخرى */
+  max-width: 400px; /* حد أقصى للعرض */
+  width: 90%; /* عرض مرن */
+}

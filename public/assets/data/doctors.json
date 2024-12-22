@@ -1,0 +1,181 @@
+[
+  {
+    "id": "01",
+    "name": "Dr. Alfaz Ahmed",
+    "specialty": "Dentistry",
+    "avgRating": 4.8,
+    "totalRating": 272,
+    "photo": "/assets/doctors/doc1.png",
+    "yearsExperience": 15,
+    "hospital": "Mount Adora Hospital, Sylhet."
+  },
+  {
+    "id": "02",
+    "name": "Dr. Saleh Mahmud",
+    "specialty": "Neurology",
+    "avgRating": 4.8,
+    "totalRating": 272,
+    "photo": "/assets/doctors/doc3.png",
+    "yearsExperience": 12,
+    "hospital": "Mount Adora Hospital, Sylhet."
+  },
+  {
+    "id": "03",
+    "name": "Dr. Farid Uddin",
+    "specialty": "Dermatology",
+    "avgRating": 4.7,
+    "totalRating": 230,
+    "photo": "/assets/doctors/doc4.png",
+    "yearsExperience": 10,
+    "hospital": "Mount Adora Hospital, Sylhet."
+  },
+  {
+    "id": "04",
+    "name": "Dr. Ayesha Begum",
+    "specialty": "Cardiology",
+    "avgRating": 4.9,
+    "totalRating": 305,
+    "photo": "/assets/doctors/doc5.png",
+    "yearsExperience": 20,
+    "hospital": "Green Life Hospital, Dhaka."
+  },
+  {
+    "id": "05",
+    "name": "Dr. Khalid Hasan",
+    "specialty": "Orthopedics",
+    "avgRating": 4.7,
+    "totalRating": 198,
+    "photo": "/assets/doctors/doc6.png",
+    "yearsExperience": 14,
+    "hospital": "Central Hospital, Dhaka."
+  },
+  {
+    "id": "06",
+    "name": "Dr. Sara Rahman",
+    "specialty": "Pediatrics",
+    "avgRating": 4.6,
+    "totalRating": 210,
+    "photo": "/assets/doctors/doc7.png",
+    "yearsExperience": 8,
+    "hospital": "Labaid Specialized Hospital, Dhaka."
+  },
+  {
+    "id": "07",
+    "name": "Dr. Arif Hossain",
+    "specialty": "Psychiatry",
+    "avgRating": 4.8,
+    "totalRating": 325,
+    "photo": "/assets/doctors/doc8.png",
+    "yearsExperience": 18,
+    "hospital": "Anwar Khan Modern Hospital, Dhaka."
+  },
+  {
+    "id": "08",
+    "name": "Dr. Nadia Hossain",
+    "specialty": "Ophthalmology",
+    "avgRating": 4.9,
+    "totalRating": 315,
+    "photo": "/assets/doctors/doc9.png",
+    "yearsExperience": 16,
+    "hospital": "Ispahani Islamia Eye Institute, Dhaka."
+  },
+  {
+    "id": "09",
+    "name": "Dr. Mahbub Ahmed",
+    "specialty": "General Surgery",
+    "avgRating": 4.5,
+    "totalRating": 180,
+    "photo": "/assets/doctors/doc10.png",
+    "yearsExperience": 22,
+    "hospital": "Square Hospital, Dhaka."
+  },
+  {
+    "id": "10",
+    "name": "Dr. Lubna Rahman",
+    "specialty": "Gynecology",
+    "avgRating": 4.7,
+    "totalRating": 290,
+    "photo": "/assets/doctors/doc11.png",
+    "yearsExperience": 13,
+    "hospital": "United Hospital, Dhaka."
+  },
+  {
+    "id": "11",
+    "name": "Dr. Mohammad Rahman",
+    "specialty": "Oncology",
+    "avgRating": 4.6,
+    "totalRating": 200,
+    "photo": "/assets/doctors/doc12.png",
+    "yearsExperience": 15,
+    "hospital": "National Cancer Institute, Dhaka."
+  },
+  {
+    "id": "12",
+    "name": "Dr. Shirin Akter",
+    "specialty": "Endocrinology",
+    "avgRating": 4.9,
+    "totalRating": 310,
+    "photo": "/assets/doctors/doc13.png",
+    "yearsExperience": 11,
+    "hospital": "Birdem General Hospital, Dhaka."
+  },
+  {
+    "id": "13",
+    "name": "Dr. Tanvir Islam",
+    "specialty": "Pulmonology",
+    "avgRating": 4.6,
+    "totalRating": 190,
+    "photo": "/assets/doctors/doc14.png",
+    "yearsExperience": 9,
+    "hospital": "National Institute of Diseases of the Chest and Hospital, Dhaka."
+  },
+  {
+    "id": "14",
+    "name": "Dr. Asif Rahman",
+    "specialty": "Radiology",
+    "avgRating": 4.7,
+    "totalRating": 245,
+    "photo": "/assets/doctors/doc15.png",
+    "yearsExperience": 12,
+    "hospital": "Labaid Specialized Hospital, Dhaka."
+  },
+  {
+    "id": "15",
+    "name": "Dr. Sabrina Sultana",
+    "specialty": "Nephrology",
+    "avgRating": 4.8,
+    "totalRating": 275,
+    "photo": "/assets/images/doctor-img15.png",
+    "yearsExperience": 14,
+    "hospital": "Bangabandhu Sheikh Mujib Medical University, Dhaka."
+  },
+  {
+    "id": "16",
+    "name": "Dr. Hossain Alam",
+    "specialty": "Hematology",
+    "avgRating": 4.5,
+    "totalRating": 165,
+    "photo": "/assets/images/doctor-img16.png",
+    "yearsExperience": 8,
+    "hospital": "Dhaka Medical College Hospital, Dhaka."
+  },
+  {
+    "id": "17",
+    "name": "Dr. Zubair Khan",
+    "specialty": "Immunology",
+    "avgRating": 4.7,
+    "totalRating": 245,
+    "photo": "/assets/images/doctor-img17.png",
+    "yearsExperience": 10,
+    "hospital": "Popular Medical College Hospital, Dhaka."
+  },
+  {
+    "id": "18",
+    "name": "Dr. Mehnaz Islam",
+    "specialty": "Dentistry",
+    "avgRating": 4.8,
+    "totalRating": 295,
+    "photo": "/assets/images/doctor-img18.png",
+    "yearsExperience": 11,
+    "hospital": "Green Life Hospital, Dhaka"
+  }]
