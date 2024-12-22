@@ -48,10 +48,10 @@ const Feature = () => {
                 </div>
                 <span
                   className="h-5 w-5 lg:w-8 lg:h-8 flex items-center justify-center
-               bg-yellowColor rounded py-1 px-2 relative lg:py-3 lg:px-4"
+                rounded py-1 px-2 relative lg:py-3 lg:px-4"
                 >
                   <img
-                    src="../../../public/assets/images/video-icon.png"
+                    src="/assets/images/appointments.svg"
                     alt="defs "
                     className="object-cover  absolute"
                   />

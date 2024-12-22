@@ -1,6 +1,7 @@
 import { BsArrowRight } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 import React from 'react'
+import { HiStar } from 'react-icons/hi'
 
 const DoctorCard = ({ doctor }) => {
   const {
@@ -33,7 +34,9 @@ const DoctorCard = ({ doctor }) => {
           </span>
           <div className="flex items-center gap-1">
             <span className="flex items-center gap-1 text-headingColor text-lg font-semibold">
-              <img src={`/assets/images/Star.png`} alt="Rating" />
+             <HiStar className='text-yellow-500'/>
+             <HiStar className='text-yellow-500'/>
+             
               {avgRating}
             </span>
             <span className="text-sm lg:text-lg font-medium text-textColor">
